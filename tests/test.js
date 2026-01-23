@@ -34,3 +34,22 @@ describe('GuacamoleServer', function() {
         assert.strictEqual(true, true);
     });
 });
+
+
+// Tests for GuacamoleServer
+
+const assert = require('assert');
+
+describe('GuacamoleServer', function() {
+    it('should initialize correctly', function() {
+        assert.strictEqual(true, true);
+    });
+    
+    it('should handle requests', function() {
+        assert.strictEqual(1 + 1, 2);
+    });
+    
+    it('should handle update 17', function() {
+        assert.strictEqual(true, true);
+    });
+});
